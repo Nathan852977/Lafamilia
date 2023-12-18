@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundApp {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport */
+    overflow: hidden; /* Para esconder qualquer conteúdo que estiver além da tela */
+    background: linear-gradient(to bottom, #090401 50%, #4B1D06 100%);
+}
+.content {
+    position: relative;
+    z-index: 1; /* Coloque o conteúdo acima do vídeo de fundo */
+    padding: 20px; /* Ajuste o preenchimento conforme necessário */
+    color: #ffffffd2; /* Ajuste a cor do texto para ser legível no vídeo de fundo */
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+
+/* src/fonts.css */
+  
+@font-face {
+    font-family: 'Rubik Broken Fox Regular';
+    src: local('Rubik Broken Fox Regular'), url(../../public//fonts/RubikBrokenFax-Regular.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+.titleApp{
+    font-family: 'Rubik Broken Fox Regular', sans-serif;
+}
+.secTitleApp{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+  
